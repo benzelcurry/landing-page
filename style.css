@@ -1,6 +1,6 @@
 body {
     font-family: roboto, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0px;
     display: flex;
     flex-direction: column;
 }
@@ -10,13 +10,56 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px;
+    padding: 48px;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 48px;
     color: #F9FAF8;
 }
+
+/* hero content begin */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main {
+   font-size: 48px;
+   font-weight: 800;
+   color: #F9FAF8; 
+}
+
+.hero-body {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* hero content end */
 
 ul {
     /* remove bullets from lists */
