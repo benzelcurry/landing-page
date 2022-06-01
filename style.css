@@ -61,6 +61,17 @@ body {
 
 /* hero content end */
 
+/* info content begin */
+
+.info {
+    display: flex;
+}
+
+img.cat {
+    width: 200px;
+    height: auto;
+}
+
 ul {
     /* remove bullets from lists */
     list-style-type: none;
