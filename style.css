@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 48px;
+    padding: 48px 200px;
 }
 
 .logo {
@@ -23,7 +23,7 @@ body {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 48px;
+    padding: 48px 200px;
     justify-content: space-between;
 }
 
@@ -33,9 +33,11 @@ body {
     gap: 16px;
 }
 
-.hero-right {
+.hero-pic {
     display: flex;
-    flex-direction: column;
+    width: 500px;
+    height: auto;
+    flex: 1 1 auto;
 }
 
 .hero-main {
@@ -63,14 +65,38 @@ body {
 
 /* info content begin */
 
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    padding: 48px;
+}
+
 .info {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 img.cat {
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
 }
+
+.kitty {
+    max-width: 250px;
+}
+
+.text {
+    text-align: center;
+    color: #1F2937
+}
+
+/* info content end */
 
 ul {
     /* remove bullets from lists */
