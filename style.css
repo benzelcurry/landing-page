@@ -5,6 +5,8 @@ body {
     flex-direction: column;
 }
 
+/* header content begin */
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -35,7 +37,7 @@ body {
 
 .hero-pic {
     display: flex;
-    width: 500px;
+    max-width: 500px;
     height: auto;
     flex: 1 1 auto;
 }
@@ -60,8 +62,6 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
-
-/* hero content end */
 
 /* info content begin */
 
@@ -96,7 +96,29 @@ img.cat {
     color: #1F2937
 }
 
-/* info content end */
+/* quote content begin */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 48px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
+.quote-author {
+    align-self: flex-end;
+    padding-top: 36px;
+    padding-right: 36px;
+    font-size: 36px;
+    color: #1F2937;
+}
 
 ul {
     /* remove bullets from lists */
