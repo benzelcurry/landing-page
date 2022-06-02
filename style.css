@@ -159,6 +159,17 @@ img.cat {
     color: #E5E7EB;
 }
 
+/* footer begin */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
 ul {
     /* remove bullets from lists */
     list-style-type: none;
