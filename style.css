@@ -120,6 +120,45 @@ img.cat {
     color: #1F2937;
 }
 
+/* call-to-action content begin */
+
+.call {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 48px;
+    margin: 60px 100px;
+}
+
+.call-alert {
+    font-size: 36px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.call-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-right {
+    display: flex;
+}
+
+.call-button {
+    background-color: #3882F6;
+    border-radius: 4px;
+    border: solid 2px #E5E7EB;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 ul {
     /* remove bullets from lists */
     list-style-type: none;
